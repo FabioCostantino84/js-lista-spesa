@@ -4,3 +4,14 @@ Data una lista della spesa, stampare sulla pagina (anche brutalmente, basta che 
 
 
 */
+
+
+
+let shoppingList = ['pomodori', 'peperoni', 'insalata', 'uova', 'pasta', 'olio', 'sale'];
+
+let i = 0;
+
+while ( i < shoppingList.length); {
+    const element = shoppingList[i];
+    i++
+}
