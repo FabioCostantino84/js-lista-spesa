@@ -7,11 +7,16 @@ Data una lista della spesa, stampare sulla pagina (anche brutalmente, basta che 
 
 
 
-let shoppingList = ['pomodori', 'peperoni', 'insalata', 'uova', 'pasta', 'olio', 'sale'];
+const shoppingList = ['pomodori', 'peperoni', 'insalata', 'uova', 'pasta', 'olio', 'sale'];
+
+console.log(shoppingList);
 
 let i = 0;
 
-while ( i < shoppingList.length); {
-    const element = shoppingList[i];
+while ( i < shoppingList.length) {
+    const shopping = shoppingList[i];
+    console.log(shopping);
+
+
     i++
 }
